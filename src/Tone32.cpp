@@ -3,7 +3,7 @@
 void tone(uint8_t pin, unsigned int frequency, unsigned long duration, uint8_t channel)
 {
     if (ledcRead(channel)) {
-        log_e("Tone channel is already in use");
+        log_e("Tone channel %d is already in use", ledcRead(channel));
         return;
     }
     ledcAttachPin(pin, channel);
