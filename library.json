@@ -1,0 +1,22 @@
+{
+    "name": "Tone32",
+    "keywords": "tone, esp32",
+    "description": "Tone library for ESP32, uses ledc channel to put a tone signal onto a specific pin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lbernstone/Tone.git"
+    },
+    "authors": [
+        {
+            "name": "Larry Bernstone",
+            "email": "lbernstone@gmail.com",
+            "url": "https://github.com/lbernstone/",
+            "maintainer": true
+        }
+    ],
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif32"
+    ]
+}
